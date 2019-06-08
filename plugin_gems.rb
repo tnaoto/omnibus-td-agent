@@ -42,12 +42,12 @@ else
 end
 download "ruby-kafka", "0.7.6"
 unless windows?
-  download "rdkafka", "0.4.2"
+  download "rdkafka", "0.5.0"
 end
-download "fluent-plugin-kafka", "0.9.4"
+download "fluent-plugin-kafka", "0.9.6"
 unless td_agent_2?
-  download "elasticsearch", "6.3.0"
-  download "fluent-plugin-elasticsearch", "3.5.1"
+  download "elasticsearch", "7.1.0"
+  download "fluent-plugin-elasticsearch", "3.5.2"
   download "prometheus-client", "0.9.0"
   download "fluent-plugin-prometheus", "1.4.0"
 end
@@ -56,7 +56,7 @@ if td_agent_2?
 else
   download "fluent-plugin-record-modifier", "2.0.1"
 end
-download "fluent-plugin-td-monitoring", "0.2.4"
+download "fluent-plugin-td-monitoring", "1.0.0"
 if windows?
   download 'win32-eventlog', '0.6.7'
   download 'fluent-plugin-windows-eventlog', '0.2.2'

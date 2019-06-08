@@ -321,6 +321,3 @@ DEPENDENCIES
   rake (~> 10.1.0)
   serverspec (~> 2.18.0)
   test-kitchen (~> 1.2)
-
-BUNDLED WITH
-   1.14.6
